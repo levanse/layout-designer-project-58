@@ -1,0 +1,16 @@
+{
+  "name": "layout-designer-project-58",
+  "version": "",
+  "description": "",
+  "main": "",
+  "author": "levanse",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^14.2.0",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-order": "^5.0.0",
+    "stylelint-scss": "^4.1.0"
+  }
+}
