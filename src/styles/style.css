@@ -56,8 +56,87 @@ h3 {
   font-size: 34px;
 }
 
-section {
+p {
+  margin-top: 13px;
+}
+
+.button {
+  height: 49px;
+  max-width: 148px;
+  width: 100%;
+  padding: 12px 24px;
+
+  font-family: OpenSans, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+
+  background: var(--primary);
+  color: var(--white);
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.title-primary {
+  color: var(--primary);
+}
+
+.container {
   max-width: 1110px;
-  text-align: center;
+  margin: 0 auto;
   padding: 100px 0;
+}
+
+/* -------------------------------- Header -------------------------------- */
+
+.header {
+  position: relative;
+}
+
+.header::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+
+  background-image: url("../assets/images/background.png");
+  background-color: var(--light);
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  opacity: 0.1;
+}
+
+.header-container {
+  position: relative;
+}
+
+.header-title {
+  margin-bottom: 185px;
+}
+
+.header-image {
+  position: absolute;
+  height: 525px;
+  top: 55px;
+  right: -270px;
+}
+
+.header-columns {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.header-column {
+  width: 540px;
+}
+
+.header-button {
+  margin-top: 40px;
 }
