@@ -1,16 +1,4 @@
 /** CSS STYLE **/
-@font-face {
-  font-weight: 400;
-  font-family: OpenSans;
-  src: url("../assets/fonts/OpenSans/OpenSans-Regular.ttf");
-}
-
-@font-face {
-  font-weight: 400;
-  font-family: Neucha;
-  src: url("../assets/fonts/Neucha/Neucha-Regular.ttf");
-}
-
 :root {
   --white: #fff;
   --white-opacity: #d7ccc0;
@@ -21,6 +9,18 @@
   --dark-opacity: #908d8b;
   --brown: #b09a81;
   --blue: #1085c5;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: OpenSans;
+  src: url("../assets/fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Neucha;
+  src: url("../assets/fonts/Neucha/Neucha-Regular.ttf");
 }
 
 * {
@@ -90,6 +90,37 @@ p {
   padding: 100px 0;
 }
 
+/* -------------------------------- Card -------------------------------- */
+
+.card {
+  padding: 24px;
+  background: var(--light);
+}
+
+.card-number {
+  font-family: 'Neucha', sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  color: var(--primary-dark);
+}
+
+.card-title {
+  font-family: 'Neucha', sans-serif;
+  font-weight: 400;
+}
+
+.card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.m-10 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 /* -------------------------------- Header -------------------------------- */
 
 .header {
@@ -146,6 +177,8 @@ p {
 .distortion {}
 
 .distortion-container {
+  position: relative;
+  height: 830px;
   text-align: center;
 }
 
@@ -155,5 +188,39 @@ p {
 }
 
 .video {
+  position: absolute;
+  bottom: -84px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+/* -------------------------------- Navigation -------------------------------- */
+
+.navigation {
+  background: var(--primary-dark);
+}
+
+.navigation-container {
+  padding-top: 200px;
+}
+
+.navigation-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.navigation-item {
+  max-width: 350px;
+  width: 100%;
+}
+
+.navigation-title {
+  font-family: 'Neucha', sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 120%;
+  color: var(--white);
 }
