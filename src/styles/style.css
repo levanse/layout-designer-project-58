@@ -90,7 +90,7 @@ p {
   padding: 100px 0;
 }
 
-/* -------------------------------- Card -------------------------------- */
+/* -------------------------------- card -------------------------------- */
 
 .card {
   padding: 24px;
@@ -121,7 +121,7 @@ p {
   margin-left: 10px;
 }
 
-/* -------------------------------- Header -------------------------------- */
+/* -------------------------------- header -------------------------------- */
 
 .header {
   position: relative;
@@ -172,7 +172,7 @@ p {
   margin-top: 40px;
 }
 
-/* -------------------------------- Distortion -------------------------------- */
+/* -------------------------------- distortion -------------------------------- */
 
 .distortion {}
 
@@ -196,7 +196,7 @@ p {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-/* -------------------------------- Navigation -------------------------------- */
+/* -------------------------------- navigation -------------------------------- */
 
 .navigation {
   background: var(--primary-dark);
@@ -223,4 +223,88 @@ p {
   font-size: 52px;
   line-height: 120%;
   color: var(--white);
+}
+
+/* -------------------------------- ikea-effect -------------------------------- */
+
+.ikea-effect {
+  position: relative;
+}
+
+.ikea-effect::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: var(--light);
+  background-image: url("../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  opacity: 0.9;
+}
+
+.ikea-effect-container {
+  position: relative;
+}
+
+.ikea-effect-items {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.ikea-effect-item {
+  /*max-width: 540px;*/
+  width: 100%;
+}
+
+.ikea-effect-image {
+  max-width: 578px;
+  width: 100%;
+}
+
+.ikea-effect-subtitle {
+  font-family: 'Neucha', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--dark-opacity);
+}
+
+.ikea-effect-title {}
+
+.ikea-effect-text {
+  font-family: 'Neucha', sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 41px;
+}
+
+.ikea-effect-title-small {
+  padding: 5px 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: var(--white);
+  background: var(--brown);
+}
+
+.ikea-effect-indent {
+  margin: 100px 0 20px;
+}
+
+.ikea-effect-columns {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.ikea-effect-column {
+  max-width: 540px;
+  width: 100%;
 }
