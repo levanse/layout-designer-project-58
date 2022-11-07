@@ -1,4 +1,4 @@
-/** CSS STYLE **/
+/* -------------------------------- css style -------------------------------- */
 :root {
   --white: #fff;
   --white-opacity: #d7ccc0;
@@ -42,6 +42,7 @@ h2,
 h3 {
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
+  font-weight: 400;
 }
 
 h1 {
@@ -91,7 +92,6 @@ p {
 }
 
 /* -------------------------------- card -------------------------------- */
-
 .card {
   padding: 24px;
   background: var(--light);
@@ -122,7 +122,6 @@ p {
 }
 
 /* -------------------------------- header -------------------------------- */
-
 .header {
   position: relative;
 }
@@ -173,7 +172,6 @@ p {
 }
 
 /* -------------------------------- distortion -------------------------------- */
-
 .distortion {}
 
 .distortion-container {
@@ -197,7 +195,6 @@ p {
 }
 
 /* -------------------------------- navigation -------------------------------- */
-
 .navigation {
   background: var(--primary-dark);
 }
@@ -225,13 +222,12 @@ p {
   color: var(--white);
 }
 
-/* -------------------------------- ikea-effect -------------------------------- */
-
-.ikea-effect {
+/* -------------------------------- cognitive-distortions -------------------------------- */
+.cognitive-distortions {
   position: relative;
 }
 
-.ikea-effect::before {
+.cognitive-distortions::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -247,27 +243,26 @@ p {
   opacity: 0.9;
 }
 
-.ikea-effect-container {
+.cognitive-distortions-container {
   position: relative;
 }
 
-.ikea-effect-items {
+.cognitive-distortions-items {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 
-.ikea-effect-item {
-  /*max-width: 540px;*/
+.cognitive-distortions-item {
   width: 100%;
 }
 
-.ikea-effect-image {
+.cognitive-distortions-image {
   max-width: 578px;
   width: 100%;
 }
 
-.ikea-effect-subtitle {
+.cognitive-distortions-subtitle {
   font-family: 'Neucha', sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -275,16 +270,18 @@ p {
   color: var(--dark-opacity);
 }
 
-.ikea-effect-title {}
+.cognitive-distortions-title {
+  margin-bottom: 30px;
+}
 
-.ikea-effect-text {
+.cognitive-distortions-text {
   font-family: 'Neucha', sans-serif;
   font-weight: 400;
   font-size: 34px;
   line-height: 41px;
 }
 
-.ikea-effect-title-small {
+.cognitive-distortions-title-small {
   padding: 5px 10px;
   font-weight: 700;
   font-size: 14px;
@@ -294,17 +291,104 @@ p {
   background: var(--brown);
 }
 
-.ikea-effect-indent {
+.cognitive-distortions-indent {
   margin: 100px 0 20px;
 }
 
-.ikea-effect-columns {
+.cognitive-distortions-columns {
   display: flex;
   flex-direction: row;
   gap: 30px;
 }
 
-.ikea-effect-column {
+.cognitive-distortions-column {
   max-width: 540px;
   width: 100%;
+}
+
+/* -------------------------------- cognitive-distortions-invert -------------------------------- */
+.cognitive-distortions-invert {
+  position: relative;
+}
+
+.cognitive-distortions-invert::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: var(--brown);
+  background-image: url("../assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  opacity: 0.9;
+}
+
+.cognitive-distortions-invert-container {
+  position: relative;
+}
+
+.cognitive-distortions-invert-items {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.cognitive-distortions-invert-item {
+  width: 100%;
+}
+
+.cognitive-distortions-invert-image {
+  max-width: 578px;
+  width: 100%;
+}
+
+.cognitive-distortions-invert-subtitle {
+  font-family: 'Neucha', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: var(--white-opacity);
+}
+
+.cognitive-distortions-invert-title {
+  margin-bottom: 30px;
+  color: var(--white);
+}
+
+.cognitive-distortions-invert-text {
+  font-family: 'Neucha', sans-serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 41px;
+  color: var(--white);
+}
+
+.cognitive-distortions-invert-title-small {
+  padding: 5px 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: var(--brown);
+  background: var(--white);
+}
+
+.cognitive-distortions-invert-indent {
+  margin: 100px 0 20px;
+}
+
+.cognitive-distortions-invert-columns {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.cognitive-distortions-invert-column {
+  max-width: 540px;
+  width: 100%;
+  color: var(--white);
 }
