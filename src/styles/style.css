@@ -121,6 +121,68 @@ p {
   margin-left: 10px;
 }
 
+/* -------------------------------- input -------------------------------- */
+.form-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+  padding: 15px 0 15px 15px;
+  background-color: var(--white);
+  border: none;
+}
+
+.footer-form > label {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: var(--white);
+}
+
+.form-input > input {
+  background: none;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 160%;
+  color: #757575;
+}
+
+.form-input > input::placeholder {
+  color: #757575;
+  opacity: 0.2;
+}
+
+.button-form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background: var(--primary);
+  cursor: pointer;
+}
+
+.button-form:before {
+  position: absolute;
+  top: 13px;
+  left: 23px;
+  background-image: url("../assets/images/send.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: '';
+  width: 24px;
+  height: 24px;
+}
+
 /* -------------------------------- header -------------------------------- */
 .header {
   position: relative;
@@ -391,4 +453,73 @@ p {
   max-width: 540px;
   width: 100%;
   color: var(--white);
+}
+
+/* -------------------------------- footer -------------------------------- */
+.footer {
+}
+
+.footer-container {
+}
+
+.footer-columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: var(--primary-dark);
+}
+
+.footer-column {
+  max-width: 485px;
+  width: 100%;
+}
+
+.footer-title {
+  color: var(--white);
+  margin: 55px 0;
+}
+
+.footer-form {
+}
+
+.footer-input {
+  margin-top: 9px;
+}
+
+.footer-button {
+}
+
+.footer-rule {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  color: var(--white);
+}
+
+.footer-rule > a {
+  color: var(--white);
+}
+
+.footer-contact {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  margin-bottom: 16px;
+}
+
+.footer-text:last-child {
+  margin-bottom: 0;
+}
+
+.footer-text > a {
+  color: var(--blue);
 }
