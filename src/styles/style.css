@@ -66,6 +66,11 @@ a {
   color: inherit;
 }
 
+ul {
+  padding-bottom: 16px;
+  padding-left: 40px;
+}
+
 .button {
   height: 49px;
   max-width: 148px;
