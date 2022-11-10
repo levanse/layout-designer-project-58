@@ -325,6 +325,10 @@ a {
   width: 100%;
 }
 
+.cognitive-distortions-image > img {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+
 .cognitive-distortions-subtitle {
   font-family: 'Neucha', sans-serif;
   font-weight: 400;
@@ -407,6 +411,10 @@ a {
 .cognitive-distortions-invert-image {
   max-width: 578px;
   width: 100%;
+}
+
+.cognitive-distortions-invert-image > img {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .cognitive-distortions-invert-subtitle {
