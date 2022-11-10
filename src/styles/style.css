@@ -443,7 +443,7 @@ img {
   font-family: 'Neucha', sans-serif;
   font-weight: 400;
   font-size: 34px;
-  line-height: 41px;
+  line-height: 120%;
   color: var(--white);
 }
 
