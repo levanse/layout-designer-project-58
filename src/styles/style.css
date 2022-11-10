@@ -443,7 +443,7 @@ img {
   font-family: 'Neucha', sans-serif;
   font-weight: 400;
   font-size: 34px;
-  line-height: 120%;
+  line-height: 41px;
   color: var(--white);
 }
 
@@ -471,7 +471,6 @@ img {
   max-width: 540px;
   width: 100%;
   color: var(--white);
-  line-height: 25px;
 }
 
 /* -------------------------------- footer -------------------------------- */
