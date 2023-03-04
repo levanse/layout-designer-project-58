@@ -41,9 +41,9 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Neucha, sans-serif;
-  line-height: 1.2em;
+  font-family: 'Neucha', sans-serif;
   font-weight: 400;
+  line-height: 1.2em;
 }
 
 h1 {
@@ -111,16 +111,19 @@ img {
 /* -------------------------------- card -------------------------------- */
 .card {
   padding: 24px;
+
   background: var(--light);
 }
 
 .card-number {
+  margin-bottom: 40px;
+
   font-family: 'Neucha', sans-serif;
   font-weight: 400;
   font-size: 64px;
   line-height: 70px;
+
   color: var(--primary-dark);
-  margin-bottom: 40px;
 }
 
 .card-title {
@@ -147,6 +150,7 @@ img {
   gap: 10px;
   height: 50px;
   padding: 15px 0 15px 15px;
+
   background-color: var(--white);
   border: none;
 }
@@ -156,19 +160,22 @@ img {
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
+
   color: var(--white);
 }
 
 .form-input > input {
-  background: none;
-  outline: none;
-  border: none;
   width: 100%;
+
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 160%;
+
   color: #757575;
+  background: none;
+  outline: none;
+  border: none;
 }
 
 .form-input > input::placeholder {
@@ -183,9 +190,11 @@ img {
   justify-content: center;
   width: 70px;
   height: 50px;
-  outline: none;
-  border: none;
+
   background: var(--primary);
+  border: none;
+  outline: none;
+
   cursor: pointer;
 }
 
@@ -193,12 +202,14 @@ img {
   position: absolute;
   top: 13px;
   left: 23px;
+
+  width: 24px;
+  height: 24px;
+
   background-image: url("../assets/images/send.svg");
   background-repeat: no-repeat;
   background-size: cover;
   content: '';
-  width: 24px;
-  height: 24px;
 }
 
 /* -------------------------------- header -------------------------------- */
@@ -233,9 +244,10 @@ img {
 
 .header-image {
   position: absolute;
-  height: 525px;
   top: 55px;
   right: -270px;
+
+  height: 525px;
 }
 
 .header-columns {
@@ -257,7 +269,9 @@ img {
 
 .distortion-container {
   position: relative;
+
   height: 814px;
+
   text-align: center;
 }
 
@@ -441,11 +455,13 @@ img {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
+
   color: var(--white-opacity);
 }
 
 .cognitive-distortions-invert-title {
   margin-bottom: 30px;
+
   color: var(--white);
 }
 
@@ -454,15 +470,18 @@ img {
   font-weight: 400;
   font-size: 34px;
   line-height: 120%;
+
   color: var(--white);
 }
 
 .cognitive-distortions-invert-title-small {
   padding: 5px 10px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
+
   color: var(--brown);
   background: var(--white);
 }
@@ -480,6 +499,7 @@ img {
 .cognitive-distortions-invert-column {
   max-width: 540px;
   width: 100%;
+
   color: var(--white);
 }
 
@@ -496,6 +516,7 @@ img {
   justify-content: center;
   align-items: center;
   gap: 30px;
+
   background: var(--primary-dark);
 }
 
@@ -505,8 +526,9 @@ img {
 }
 
 .footer-title {
-  color: var(--white);
   margin: 55px 0;
+
+  color: var(--white);
 }
 
 .footer-form {
@@ -524,6 +546,7 @@ img {
   font-weight: 400;
   font-size: 12px;
   line-height: 160%;
+
   color: var(--white);
 }
 
@@ -533,15 +556,17 @@ img {
 
 .footer-contact {
   margin-top: 60px;
+
   text-align: center;
 }
 
 .footer-text {
+  margin-bottom: 16px;
+
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 160%;
-  margin-bottom: 16px;
 }
 
 .footer-text:last-child {
