@@ -98,6 +98,10 @@ img {
   cursor: pointer;
 }
 
+.button:hover {
+  background-color: #ea7600;
+}
+
 .title-primary {
   color: var(--primary);
 }
@@ -112,7 +116,14 @@ img {
 .card {
   padding: 24px;
 
-  background: var(--light);
+  background-color: var(--light);
+
+  cursor: pointer;
+}
+
+.card:hover {
+  color: var(--white);
+  background-color: var(--primary);
 }
 
 .card-number {
@@ -126,15 +137,27 @@ img {
   color: var(--primary-dark);
 }
 
+.card:hover .card-number {
+  color: var(--white);
+}
+
 .card-title {
   font-family: 'Neucha', sans-serif;
   font-weight: 400;
+
+  color: var(--primary);
+}
+
+.card:hover .card-title {
+  color: var(--white);
 }
 
 .card-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+
+  margin-top: 16px;
 }
 
 .m-10 {
@@ -196,6 +219,10 @@ img {
   outline: none;
 
   cursor: pointer;
+}
+
+.button-form:hover {
+  background-color: #ea7600;
 }
 
 .button-form:before {
@@ -573,6 +600,10 @@ img {
   margin-bottom: 0;
 }
 
-.footer-text > a {
+.footer-text a {
   color: var(--blue);
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
 }
