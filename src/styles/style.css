@@ -577,8 +577,14 @@ img {
   color: var(--white);
 }
 
-.footer-rule > a {
+.footer-rule a {
+  text-decoration: underline;
+
   color: var(--white);
+}
+
+.footer-rule a:hover {
+  text-decoration: none;
 }
 
 .footer-contact {
@@ -601,9 +607,11 @@ img {
 }
 
 .footer-text a {
+  text-decoration: underline;
+
   color: var(--blue);
 }
 
 .footer-text a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
