@@ -132,7 +132,7 @@ img {
   font-family: 'Neucha', sans-serif;
   font-weight: 400;
   font-size: 64px;
-  line-height: 70px;
+  line-height: 64px;
 
   color: var(--primary-dark);
 }
@@ -155,7 +155,7 @@ img {
 .card-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 25px;
 
   margin-top: 16px;
 }
