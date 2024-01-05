@@ -293,10 +293,6 @@ img {
 
 /* -------------------------------- distortion -------------------------------- */
 .distortion {
-  position: relative;
-}
-
-.distortion-container {
   height: 814px;
 
   text-align: center;
