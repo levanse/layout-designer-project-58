@@ -528,6 +528,9 @@ img {
 
 /* -------------------------------- footer -------------------------------- */
 .footer {
+}
+
+.footer-container {
   padding-bottom: 110px;
 }
 
