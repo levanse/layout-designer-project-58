@@ -565,10 +565,20 @@ img {
   color: var(--white);
 }
 
+.footer-text a {
+  text-decoration: underline;
+
+  color: var(--blue);
+}
+
 .footer-rule a {
   text-decoration: underline;
 
   color: var(--white);
+}
+
+.footer-text a:hover {
+  text-decoration: none;
 }
 
 .footer-rule a:hover {
@@ -596,14 +606,4 @@ img {
 
 .footer-text:last-child {
   margin-bottom: 0;
-}
-
-.footer-text a {
-  text-decoration: underline;
-
-  color: var(--blue);
-}
-
-.footer-text a:hover {
-  text-decoration: none;
 }
